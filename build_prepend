@@ -1,0 +1,2 @@
+export PATH="/usr/lib64/qt6/bin:$PATH"
+sip-build --no-make --confirm-license
