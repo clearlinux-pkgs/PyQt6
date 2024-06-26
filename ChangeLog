@@ -1,3 +1,113 @@
+2024-04-17  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, PyQt6.msp:
+	Implemented QBluetoothUuid.__hash__ (but why isn't it inherited from
+	QUuid?)
+	[9ba237216b30] [6.7.0]
+
+2024-04-08  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, PyQt6.msp:
+	Ignore QProcess::failChildProcessModifier().
+	[7b66fd047770]
+
+2024-04-05  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, PyQt6.msp, qpy/QtCore/qpycore_std_optional.sip:
+	Completed the outstanding TODOs got Qt v6.7.0.
+	[108ee7a23de4]
+
+2024-04-04  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated for Qt v6.7.0.
+	[2816f663c39e]
+
+2024-03-23  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, qpy/QtQml/qpyqmlobject.cpp:
+	Changed the destruction of Qml proxy objects to avoid a crash. No
+	real understanding of what's going on but the changes seem fairly
+	insignificant.
+	[b6838cbe38fc]
+
+2024-03-22  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, PyQt6.msp:
+	Updated for Qt v6.7.0rc2.
+	[d427253bbcc0]
+
+2024-03-17  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, PyQt6.msp:
+	Added Qt v6.7 support for QtWidgets and QtXml.
+	[07cbcd458f67]
+
+	* NEWS, PyQt6.msp:
+	Added Qt v6.7 support for QtRemoteObjects, QtSensors, QtSerialPort,
+	QtSpatialAudio, QtSql, QtSvg, QtSvgWidgets, QtTest, QtTextToSpeech,
+	QtWebChannel and QtWebSockets.
+	[c363bb334e37]
+
+	* NEWS, PyQt6.msp:
+	Added Qt v6.7 support for QtPdf, QtPdfWidgets, QtPositioning,
+	QtPrintSupport, QtQml, QtQuick, QtQuick3D and QtQuickWidgets.
+	[6366aec70b11]
+
+2024-03-16  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, PyQt6.msp:
+	Added Qt v6.7 support for QtHelp, QtMultimedia, QtMultimediaWidgets,
+	QtNetwork, QtNfc, QtOpenGL and QtOpenGLWidgets.
+	[40fc53721837]
+
+	* NEWS, PyQt6.msp:
+	Completed QtGui and added QtDBus and QtDesigner.
+	[b96b5b1afbc3]
+
+2024-03-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, PyQt6.msp:
+	Added initial support for Qt v6.7. (QtBluetooth, QtCore and a
+	minimal QtGui.)
+	[c170ac865591]
+
+2024-02-18  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* README.md:
+	Tweaked README.md
+	[bca936c8497c]
+
+	* NEWS, README, README.md, pyproject.toml:
+	Migrated from [sip.tool.metadata] to [project] in pyproject.toml.
+	[3a30c2e42184]
+
+	* Merged the 6.6-maint branch.
+	[fc392a680ee9]
+
+2024-02-16  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, qpy/QtCore/qpycore_qlist.sip:
+	Removed a couple of warning messages.
+	[42af8ed6c3c1] <6.6-maint>
+
+2024-01-02  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* rb-product.toml:
+	Removed the product file.
+	[bba46b17f46b] <6.6-maint>
+
+	* NEWS, extras/uic/Compiler/qtproxies.py, extras/uic/widget-
+	plugins/qtopenglwidgets.py:
+	Fixed the use of QOpenGLWidget in pyuic6.
+	[0c98a2419f89] <6.6-maint>
+
+2023-11-30  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 6.6.1 for changeset 68ad2464c85f
+	[e870c02ce799] <6.6-maint>
+
 2023-11-18  Phil Thompson  <phil@riverbankcomputing.com>
 
 	* NEWS, PyQt6.msp:

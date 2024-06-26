@@ -1,3 +1,7 @@
+v6.7.0 17th April 2024
+  - Added support for Qt v6.7 (excluding any technical previews).
+  - Bug fixes.
+
 v6.6.1 18th November 2023
   - Bug fixes.
 
