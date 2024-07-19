@@ -1,3 +1,8 @@
+v6.7.1 1st July 2024
+  - SIP v6.8.6 and PyQt6-sip v13.8 are now required for Python v3.13 support
+    and for Linux on ARM.
+  - Bug fixes.
+
 v6.7.0 17th April 2024
   - Added support for Qt v6.7 (excluding any technical previews).
   - Bug fixes.

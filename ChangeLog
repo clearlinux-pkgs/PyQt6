@@ -1,3 +1,53 @@
+2024-07-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt6.msp:
+	Added /ReleaseGIL/ to the setSource() and setSourceDevice() methods
+	of QMediaPlayer to avoid a deadlock when using the ffmpeg backend.
+	[910298597934] [6.7.1] <6.7-maint>
+
+2024-07-01  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* qpy/QtQml/qpyqmlmodel.cpp, qpy/QtQml/qpyqmlmodel.h:
+	Added missing files to the repository.
+	[29a13d682f01] <6.7-maint>
+
+	* NEWS, project.py, pyproject.toml:
+	SIP v6.8.6 and PyQt6-sip v13.8 are now required for Python v3.13
+	support and for Linux on ARM.
+	[ac3d16987f8d] <6.7-maint>
+
+	* NEWS, qpy/QtQml/qpyqml_register_type.cpp,
+	qpy/QtQml/qpyqmlobject.cpp, qpy/QtQml/qpyqmlobject.h,
+	qpy/QtQml/qpyqmlvalidator.cpp:
+	Refactored the support for qml models to separate it from simple
+	objects.
+	[eb61a1dc0a2b] <6.7-maint>
+
+	* qpy/QtCore/qpycore_types.cpp:
+	Fixed a confusing comment.
+	[756b2ed96d7b] <6.7-maint>
+
+2024-06-29  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, extras/designer/pluginloader.cpp,
+	extras/qmlscene/pluginloader.cpp:
+	The QML and Designer plugin loaders now use the modern
+	initialisation API.
+	[f04d37bf7419] <6.7-maint>
+
+2024-06-22  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, extras/uic/enum_map.py, extras/uic/properties.py:
+	Fix pyuic to handle fully scoped enum names in .ui files created by
+	Qt v6.7.0.
+	[f0ab9eec4b70] <6.7-maint>
+
+2024-04-20  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 6.7.0 for changeset 9ba237216b30
+	[f23656235645]
+
 2024-04-17  Phil Thompson  <phil@riverbankcomputing.com>
 
 	* NEWS, PyQt6.msp:
