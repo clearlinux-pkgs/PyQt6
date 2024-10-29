@@ -7,7 +7,7 @@
 #
 Name     : PyQt6
 Version  : 6.7.1
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/d1/f9/b0c2ba758b14a7219e076138ea1e738c068bf388e64eee68f3df4fc96f5a/PyQt6-6.7.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d1/f9/b0c2ba758b14a7219e076138ea1e738c068bf388e64eee68f3df4fc96f5a/PyQt6-6.7.1.tar.gz
 Summary  : Python bindings for the Qt cross platform application toolkit
