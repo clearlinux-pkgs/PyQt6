@@ -23,6 +23,7 @@ libQt6Sensors.so.6
 libQt6SerialPort.so.6
 libQt6SpatialAudio.so.6
 libQt6Sql.so.6
+libQt6StateMachine.so.6
 libQt6Svg.so.6
 libQt6SvgWidgets.so.6
 libQt6Test.so.6

@@ -1,3 +1,37 @@
+2025-02-01  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt6.msp:
+	Further fix for QStringConverterBase.
+	[c774d4388743] [6.8.1] <6.8-maint>
+
+2025-01-31  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt6.msp:
+	Fixed QStringConverterBase so it will build with Qt v6.8.2.
+	[e440db7b62ee] <6.8-maint>
+
+2025-01-27  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, PyQt6.msp, project.py:
+	Added the QtStateMachine module.
+	[b317227bd4c5] <6.8-maint>
+
+2024-12-13  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt6.msp:
+	Properly fix the type hint for QChar.
+	[b3d4ec0dbd6a] <6.8-maint>
+
+	* PyQt6.msp:
+	Fix the type hint for QChar to say a str is also allowed.
+	[8e8300065162] <6.8-maint>
+
+2024-12-06  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 6.8.0 for changeset 80def5a26747
+	[f7e58d986d2a]
+
 2024-12-04  Phil Thompson  <phil@riverbankcomputing.com>
 
 	* NEWS:
