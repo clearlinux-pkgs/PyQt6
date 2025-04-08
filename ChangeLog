@@ -1,3 +1,56 @@
+2025-04-03  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[5e6322462b6b] [6.9.0]
+
+2025-04-02  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* project.py:
+	Backout the hack required to build QtStateMachine on Qt v6.9.0rc.
+	[d84b0d490ff2]
+
+2025-03-27  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt6.msp, qpy/QtCore/qpycore_std_chrono_duration.sip:
+	Implemented std::chrono::milliseconds as a mapped type.
+	[e31c76dbc604]
+
+2025-03-21  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* qpy/QtCore/qpycore_std_chrono_duration.sip:
+	Implemented std::chrono::seconds as a mapped type for
+	PyQt6-NetworkAuth.
+	[23f0ec8141eb]
+
+2025-03-17  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt6.msp, project.py, qpy/QtCore/qpycore_enums_flags_metatype.cpp:
+	Updated for Qt v6.9.0rc.
+	[b9a66b2dbde4]
+
+	* Merged the 6.8-maint branch.
+	[4cc56d430f47]
+
+2025-02-24  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* PyQt6.msp:
+	Fixed a crash when garbage collecting a QModelRoleDataSpan created
+	from a list of QModelRoleData instances.
+	[c6efaaff87c5] <6.8-maint>
+
+2025-02-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* extras/uic/uiparser.py:
+	Fixed a pyuic6 bug handling fully scoped alignment flags.
+	[7480cca87b72] <6.8-maint>
+
+2025-02-03  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 6.8.1 for changeset c774d4388743
+	[ed39f83755bb] <6.8-maint>
+
 2025-02-01  Phil Thompson  <phil@riverbankcomputing.com>
 
 	* PyQt6.msp:
